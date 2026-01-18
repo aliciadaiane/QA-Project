@@ -14,7 +14,8 @@ tenham acesso e que menssagens de erro sejam exibidas de forma correta em cenár
 - Sistema disponível e acessível
 - Usuário não autenticado
 
-## Dados de teste: test-data/login-data.md
+**Dados de teste:**  
+- [Massa de login – dados válidos e inválidos](../../test-data/login-data.md)
 
   ## CT-001 - Login com credenciais válidas
   **Tipo:** Funcional
