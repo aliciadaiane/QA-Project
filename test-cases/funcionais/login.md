@@ -13,6 +13,7 @@ tenham acesso e que menssagens de erro sejam exibidas de forma correta em cenár
 - Usuário cadastrado no sistema
 - Sistema disponível e acessível
 - Usuário não autenticado
+  
 
 **Dados de teste:**  
 - [dados válidos e inválidos](../../test-data/login-data.md)
