@@ -1,26 +1,24 @@
 # Casos de Teste - Funcionolidade de Login
 
-## 1. Objetivo
-Validar o comportamento de funcionalidade de login do sistema, garantindo que apenas usuários autorizados 
-tenham acesso e que menssagens de erro sejam exibidas de forma correta em cenários inválidos.
+## 1. Descrição
+Implementar a funcionalidade de login de usuário com campos para entrada de 
+email e senha. Os usuários preencherão essas informações e, em seguida, serão redirecionados para 
+a página inicial. A validação será realizada para garantir que os campos sejam preenchidos corretamente.
 
-## 2. Escopo
-- Validação de campos obrigatórios
-- Autenticação com credenciais válidas
-- Mensagens de erro para credenciais inválidas
-
-## 3. Pré-condições
-- Usuário cadastrado no sistema
-- Sistema disponível e acessível
-- Usuário não autenticado
-  
+Para o login de usuário, ele precisa ter um email já cadastrado no sistema.
+É preciso ter uma senha válida com 8 ou mais dígitos.
 
 **Dados de teste:**  
 - [dados válidos e inválidos](../../test-data/login-data.md)
 
   ## CT-001 - Login com credenciais válidas
-  **Tipo:** Funcional
   **Prioridade:** Alta
+
+  **Pré-condições:**
+- Usuário cadastrado no sistema
+- Email e senha válidos
+- Usuário não autenticado
+- Conta ativa
 
   **Passos:**
   1. Acessar a página de login
@@ -33,8 +31,13 @@ tenham acesso e que menssagens de erro sejam exibidas de forma correta em cenár
   - Redirecionamento para a página inicial do sistema
 
     ## CT-002 - Login com senha inválida
-    **Tipo:** Funcional
     **Priodidade:** Alta
+
+    **Pré-condições:**
+  - Usuário cadastrado no sistema
+  - Senha inválida
+  - Usuário não autenticado
+  - Conta ativa
 
   **Passos:**
   1. Acessar a página de login
@@ -47,8 +50,13 @@ tenham acesso e que menssagens de erro sejam exibidas de forma correta em cenár
    - Usuário permanece na tela de login
 
   ## CT-003 - Login com email inválido
-  **Tipo:** Funcional
   **Prioridade:** Média
+
+  **Pré-condições:**
+- Usuário cadastrado no sistema
+- Email inválido
+- Usuário não autenticado
+- Conta ativa
 
   **Passos:**
   1. Acessar a página de login
@@ -61,8 +69,13 @@ tenham acesso e que menssagens de erro sejam exibidas de forma correta em cenár
   - Login não realizado
 
   ## CT-004 - Login com campos obrigatórios vazios
-  **Tipo:** Válidação
   **Prioridade:** Alta
+
+  **Pré-condições:**
+- Usuário cadastrado no sistema
+- campos de email e senha vazios
+- Usuário não autenticado
+- Conta ativa
 
   **Passos:**
   1. Acessar a página de login
