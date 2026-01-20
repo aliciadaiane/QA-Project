@@ -3,6 +3,7 @@
 ## 1. Descrição
 
 **Dados de teste:**
+- [dados válidos e inválidos](../../test-data/login-data.md)
 
 ## CT-001 - 
 **Prioridade:**
