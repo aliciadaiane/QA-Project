@@ -14,6 +14,9 @@ Para o login de usuário, ele precisa ter um email já cadastrado no sistema.
   ## CT-001 - Login com credenciais válidas
   **Prioridade:** Alta
 
+  **Objetivo do teste:**
+  Validar se um usuário com email e senha corretos conseguem fazer login no sistema
+
   **Pré-condições:**
 - Usuário cadastrado no sistema
 - Email e senha válidos
@@ -32,6 +35,9 @@ Para o login de usuário, ele precisa ter um email já cadastrado no sistema.
 
     ## CT-002 - Login com senha inválida
     **Priodidade:** Alta
+ 
+    **Objetivo do teste:**
+    Validar se usuário com email válido mas senha incorreta não pode fazer login no sistema
 
     **Pré-condições:**
   - Usuário cadastrado no sistema
@@ -52,6 +58,9 @@ Para o login de usuário, ele precisa ter um email já cadastrado no sistema.
   ## CT-003 - Login com email inválido
   **Prioridade:** Média
 
+  **Objetivo do teste:**
+    Validar se usuário com senha válida mas email incorreto não pode fazer login no sistema
+
   **Pré-condições:**
 - Usuário cadastrado no sistema
 - Email inválido
@@ -70,6 +79,9 @@ Para o login de usuário, ele precisa ter um email já cadastrado no sistema.
 
   ## CT-004 - Login com campos obrigatórios vazios
   **Prioridade:** Alta
+
+  **Objetivo do teste:**
+    Validar se o usuário não preencher campos obrigatórios não poderá fazer login no sistema
 
   **Pré-condições:**
 - Usuário cadastrado no sistema
