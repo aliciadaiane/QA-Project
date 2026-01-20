@@ -13,6 +13,8 @@ A senha precisa ter 8 ou mais dígitos.
 ## CT-001 - 
 **Prioridade:**
 
+**Objetivo do teste**
+
 **Pré-condições:**
 
 **Passos:**
